@@ -1,0 +1,26 @@
+GET http://localhost:8000
+
+###
+POST http://localhost:8000/create
+Content-Type: application/json
+
+{
+  "name": "Bob",
+  "Age": "35",
+  "DateOfBirth": "10th February 1990",
+  "Job": "Care worker"
+}
+
+###
+POST http://localhost:8000/create
+
+###
+POST http://localhost:8000
+
+###
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{}
+
+###
